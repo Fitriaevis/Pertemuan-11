@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.Parentbox{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 150px;
+}
+.Foto{
+  float: left;
+  width: 30%;
+  height: 600px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Foto img{
+  width: 570px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Deskripsi{
+  width: 60%;
+  overflow: hidden;
+  float: left;
+  margin-left: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
 }
 
-.App-link {
-  color: #61dafb;
+.Deskripsi .Price{
+  font-size: 25px;
+  font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Cate {
+  color: #acaeb2;
+}
+
+.Deskripsi .buy{
+  margin-top: 60px; 
+  width: 200px;
+  height: 40px;
+  background-color: white;
+}
+
+.Deskripsi .buy:hover{
+  background-color: rgb(196, 222, 255)
+}
+
+.Deskripsi .A{
+  margin-left: 10px;
+  background-color: white
+}
+.Deskripsi .A:hover{
+  background-color: bisque
+}
+
+.Deskripsi .B{
+  background-color: white
+}
+.Deskripsi .B:hover{
+  background-color: bisque
+}
+
+.Deskripsi .C{
+  background-color: white
+}
+.Deskripsi .C:hover{
+  background-color: bisque
+}
+
+.Deskripsi .D{
+  background-color: white
+}
+.Deskripsi .D:hover{
+  background-color: bisque
+}
+.Deskripsi .Add{
+  margin-left: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: white
+}
+.Deskripsi .Add:hover{
+  background-color: rgb(196, 222, 255)
 }
